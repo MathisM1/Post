@@ -1,0 +1,10 @@
+<h1>Tous les medias</h1>
+<ul>
+{% for media in medias %}
+    <li> {{media.title}} </li>
+    <li> {{media.type}} </li>
+    <li> {{media.path}} </li>
+    <li> {{media.alt}} </li>
+{% endfor %}
+</ul>
+
